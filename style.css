@@ -5,13 +5,19 @@ body {
     margin: 0;
     padding: 0;
 }
-/*************************Header beginning********************/
+
+/*display adjustments*/
+.header, .hero, .part2, .part3, .part4 {
+    padding: 0 150px;
+}
+
+
+/*************************Header ********************/
 .header {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
 }
 
 .logo {
@@ -20,10 +26,10 @@ body {
     color: #F9FAF8;
     font-weight: 700;
 }
-
+/*links*/
 a {
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
 }
 
 ul {
@@ -33,13 +39,44 @@ ul {
 }
 /*End of header*/
 
-/********************************hero**************/
+/*************************************hero****************************/
 .hero {
     background-color: #1f2937;
-    position: relative;
     height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-/*end of part1*/
+/*inside hero-container*/
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 600px;
+    padding: 30px 0;
+}
+/*button*/
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    border-width: 0;
+}
+
+.img1 {
+    width: 500px;
+    height: 350px;
+}
+
+/*end of hero*/
 
 /********************************part2****************/
 .part2 {
